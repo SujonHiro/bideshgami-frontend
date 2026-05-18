@@ -13,7 +13,7 @@ A modern React-based web application for the Bideshgami platform — built with 
 | Styling | Tailwind CSS v4 |
 | State Management | Redux Toolkit + React Redux |
 | Routing | React Router v7 |
-| Form Handling | React Hook Form + Zod |
+| Form Handling | React Hook Form + Redux |
 | HTTP Client | Axios |
 | UI Components | Radix UI + shadcn/ui |
 | Notifications | Sonner |
@@ -82,7 +82,7 @@ bideshgami-frontend/
 │   ├── assets/             # Images, fonts, etc.
 │   ├── components/         # Reusable UI components
 │   ├── pages/              # Page-level components
-│   ├── features/           # Redux slices & API logic
+│   ├── redux/           # Redux slices & API logic
 │   ├── hooks/              # Custom React hooks
 │   ├── lib/                # Utility functions
 │   ├── routes/             # React Router configuration
